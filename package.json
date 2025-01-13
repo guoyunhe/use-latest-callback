@@ -71,5 +71,6 @@
     "doc": {
       "basename": "/use-latest-callback/"
     }
-  }
+  },
+  "version": "1.0.0"
 }
