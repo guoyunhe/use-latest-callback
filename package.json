@@ -1,4 +1,18 @@
 {
+  "name": "@guoyunhe/use-latest-callback",
+  "description": "React hook to provide stable reference to latest callback function",
+  "keywords": [
+    "react",
+    "react-hooks",
+    "use-event",
+    "use-callback",
+    "use-ref",
+    "use-latest-callback",
+    "use-stable-callback",
+    "use-callback-stable",
+    "use-callback-ref",
+    "use-ref-callback"
+  ],
   "homepage": "https://github.com/guoyunhe/use-latest-callback#readme",
   "bugs": {
     "url": "https://github.com/guoyunhe/use-latest-callback/issues"
