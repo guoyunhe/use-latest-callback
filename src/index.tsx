@@ -1,13 +1,10 @@
-import cn from 'classnames';
-import { CSSProperties, ReactNode } from 'react';
-import './index.css';
+import { useCallback, useRef } from 'react';
 
-export interface UseLatestCallbackProps {
-  children?: ReactNode;
-  className?: string;
-  style?: CSSProperties;
-}
+export function useLatestCallback<T extends unknown[], U>(
+  callback: (...args: T) => U,
+): (...args: T) => U {
+  const callbackRef = useRef(callback);
+  callbackRef.current = callback;
 
-export function UseLatestCallback({ children, className, style }: UseLatestCallbackProps) {
-  return <UseLatestCallback className={cn('use-latest-callback', className)} style={style}>{children}</UseLatestCallback>;
+  return useCallback((...args: T) => callbackRef.current?.(...args), []);
 }

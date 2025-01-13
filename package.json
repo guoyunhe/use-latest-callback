@@ -36,18 +36,18 @@
     "extends": "stylelint-config-rive"
   },
   "devDependencies": {
-    "@mdx-js/react": "^3.0.0",
-    "@testing-library/dom": "^10.0.0",
-    "@testing-library/react": "^16.0.0",
-    "@testing-library/user-event": "^14.0.0",
-    "@types/node": "^20.0.0",
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
-    "react": "^18.0.0",
-    "react-doc-ui": "^2.0.0",
-    "react-dom": "^18.0.0",
-    "rive": "^3.0.0",
-    "typescript": "^5.0.0"
+    "@mdx-js/react": "^3.1.0",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/node": "^20.17.12",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "react": "^18.3.1",
+    "react-doc-ui": "^2.3.0",
+    "react-dom": "^18.3.1",
+    "rive": "^3.0.1",
+    "typescript": "^5.7.3"
   },
   "peerDependencies": {
     "react": ">=16.8.0"
