@@ -1,0 +1,61 @@
+{
+  "homepage": "https://github.com/guoyunhe/use-latest-callback#readme",
+  "bugs": {
+    "url": "https://github.com/guoyunhe/use-latest-callback/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guoyunhe/use-latest-callback.git"
+  },
+  "funding": "https://github.com/sponsors/guoyunhe",
+  "author": {
+    "name": "Guo Yunhe",
+    "email": "i@guoyunhe.me"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rive build",
+    "build:watch": "rive build --watch",
+    "lint": "rive lint",
+    "lint:fix": "rive lint --fix",
+    "start": "rive start",
+    "test": "rive test",
+    "test:ui": "rive test --ui",
+    "test:watch": "rive test --watch"
+  },
+  "prettier": "prettier-config-rive",
+  "stylelint": {
+    "extends": "stylelint-config-rive"
+  },
+  "devDependencies": {
+    "@mdx-js/react": "^3.0.0",
+    "@testing-library/dom": "^10.0.0",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "react": "^18.0.0",
+    "react-doc-ui": "^2.0.0",
+    "react-dom": "^18.0.0",
+    "rive": "^3.0.0",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "rive": {
+    "template": "react",
+    "doc": {
+      "basename": "/use-latest-callback/"
+    }
+  }
+}
