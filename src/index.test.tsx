@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useLatestCallback } from '.';
 
 describe('useLatestCallback()', () => {
-  it('should keep reference', async () => {
+  it('should get latest state while keep reference', async () => {
     let callback = null;
     const App = () => {
       const [foobar, setFoobar] = useState('foo');
